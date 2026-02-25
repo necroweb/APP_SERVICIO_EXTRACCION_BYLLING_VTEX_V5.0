@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de entorno
+.env
+*.env
+
+# Datos temporales o binarios que no deben subirse
+*.xlsx
+*.csv
+*.log
+
+# Playwright cache
+playwright/.cache/
+
+# Archivos temporales de Office
+~$*
