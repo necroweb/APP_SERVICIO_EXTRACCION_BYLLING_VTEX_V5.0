@@ -32,7 +32,7 @@ async def login_and_open(page, account: str, email: str, login_url: str | None =
             for sel in [
                 "button:has-text('Continuar')",
                 "button:has-text('Next')",
-                "button[type=submit']",
+                "button[type='submit']",
                 "button[type=submit]"
             ]:
                 btn = page.locator(sel)

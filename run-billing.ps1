@@ -3,7 +3,7 @@ param(
     [string]$Account          = "tottoco",
     [string]$Email            = "prac_desarrollo@totto.com",
     [int]   $Year             = 2025,
-    [int]   $MonthStart       = 11,
+    [int]   $MonthStart       = 12,
     [int]   $MonthEnd         = 12,
     [bool]  $Headless         = $false,
     [bool]  $Debug            = $true,

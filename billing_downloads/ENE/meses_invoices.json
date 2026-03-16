@@ -1,30 +1,30 @@
 [
   {
-    "month_group_index": 2,
-    "anio_texto_despues_de_i": "2025 -",
-    "anio_num": 2025,
-    "mes_span": "DECEMBER",
-    "mes_num": 12,
+    "month_group_index": 1,
+    "anio_texto_despues_de_i": "2026 -",
+    "anio_num": 2026,
+    "mes_span": "JANUARY",
+    "mes_num": 1,
     "cop_spans_all": [
-      "COP 134,506,931.77",
-      "COP 126,549,556.00"
+      "COP 168,974,184.10",
+      "COP 158,977,708.00"
     ],
-    "cop_principal": "COP 134,506,931.77",
+    "cop_principal": "COP 168,974,184.10",
     "action_blocks_basic": [
       {
         "sibling_index": 0,
         "block_index_in_sibling": 0,
-        "raw_text": "COP 134,506,931.77 Bill amount"
+        "raw_text": "COP 168,974,184.10 Bill amount"
       },
       {
         "sibling_index": 1,
         "block_index_in_sibling": 1,
-        "raw_text": "1/16/2026Due date"
+        "raw_text": "2/14/2026Due date"
       },
       {
         "sibling_index": 2,
         "block_index_in_sibling": 2,
-        "raw_text": "Financial ReportCOP 126,549,556.001/14/2026  Open Invoice  Open Invoice XMLDetails"
+        "raw_text": "Financial ReportCOP 158,977,708.002/12/2026  Open Invoice  Open Invoice XMLDetails"
       }
     ],
     "third_block": {
@@ -33,8 +33,8 @@
       "button_text": "Financial Report",
       "details_items": [],
       "links": {
-        "pdf": "/api/billing/invoices/A21822DC76E343E8A0B2F50182C16855/document/pdf",
-        "xml": "/api/billing/invoices/A21822DC76E343E8A0B2F50182C16855/document/xml"
+        "pdf": "/api/billing/invoices/EFC22A739E5A4146BCD2E4BDFFC70480/document/pdf",
+        "xml": "/api/billing/invoices/EFC22A739E5A4146BCD2E4BDFFC70480/document/xml"
       },
       "groups": [
         {
@@ -45,8 +45,8 @@
           "expanded": false,
           "details_items": [],
           "links": {
-            "pdf": "/api/billing/invoices/A21822DC76E343E8A0B2F50182C16855/document/pdf",
-            "xml": "/api/billing/invoices/A21822DC76E343E8A0B2F50182C16855/document/xml"
+            "pdf": "/api/billing/invoices/EFC22A739E5A4146BCD2E4BDFFC70480/document/pdf",
+            "xml": "/api/billing/invoices/EFC22A739E5A4146BCD2E4BDFFC70480/document/xml"
           }
         }
       ]
@@ -70,7 +70,7 @@
     "mv2_ma1_details": {
       "found_mv2_w100_d": true,
       "found_ma1": true,
-      "expanded_buttons_count": 10,
+      "expanded_buttons_count": 11,
       "detail_groups": [
         {
           "index": 0,
@@ -5533,7 +5533,7 @@
           "items": [
             {
               "description": "B2B Take Rate and InStore Seller - Monthly Adjustment",
-              "amount_text": "-COP 8,101,533.79"
+              "amount_text": "-COP 3,322,190.59"
             }
           ],
           "_level": "top",
@@ -5549,13 +5549,13 @@
               "row_index": 0,
               "tokens": [
                 "tottoco",
-                "8,101,533.79",
+                "3,322,190.59",
                 "Category: SaaS - Platform",
                 "-1 COP",
                 "The selected range was from 0 to infinity",
-                "-COP 8,101,533.79"
+                "-COP 3,322,190.59"
               ],
-              "amount": "-COP 8,101,533.79"
+              "amount": "-COP 3,322,190.59"
             }
           ],
           "row_indexes": [
@@ -5595,7 +5595,7 @@
           "items": [
             {
               "description": "Take Rate - SalesAppDeliveredByMainAccount",
-              "amount_text": "COP 8,089,206.39"
+              "amount_text": "COP 8,444,280.73"
             }
           ],
           "_level": "top",
@@ -5611,15 +5611,15 @@
               "row_index": 0,
               "tokens": [
                 "newbrandtotto",
-                "11,200,911 COP",
+                "17,420,245 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.3 %",
                 "The selected range was from 0 to infinity",
-                "COP 33,602.73"
+                "COP 52,260.74"
               ],
-              "amount": "COP 33,602.73"
+              "amount": "COP 52,260.74"
             },
             {
               "source": "column_exact",
@@ -5629,15 +5629,15 @@
               "row_index": 1,
               "tokens": [
                 "tottoco",
-                "2,685,201,220 COP",
+                "2,797,339,997 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.3 %",
                 "The selected range was from 0 to infinity",
-                "COP 8,055,603.66"
+                "COP 8,392,019.99"
               ],
-              "amount": "COP 8,055,603.66"
+              "amount": "COP 8,392,019.99"
             }
           ],
           "row_indexes": [
@@ -5664,7 +5664,7 @@
           "items": [
             {
               "description": "Take Rate - InternalCertifiedMarketplaceAndIsParentAccount",
-              "amount_text": "COP 18,865,672.86"
+              "amount_text": "COP 13,438,498.18"
             }
           ],
           "_level": "top",
@@ -5679,16 +5679,16 @@
               "column_index": 6,
               "row_index": 0,
               "tokens": [
-                "toparaqawlcd7",
-                "499,900 COP",
+                "tottocowlcd076",
+                "217,873,338 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 2,749.45"
+                "COP 1,198,303.36"
               ],
-              "amount": "COP 2,749.45"
+              "amount": "COP 1,198,303.36"
             },
             {
               "source": "column_exact",
@@ -5697,16 +5697,16 @@
               "column_index": 6,
               "row_index": 1,
               "tokens": [
-                "tottocowlcd076",
-                "162,780,315 COP",
+                "tottocowlcd7",
+                "2,225,235,604 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 895,291.73"
+                "COP 12,238,795.82"
               ],
-              "amount": "COP 895,291.73"
+              "amount": "COP 12,238,795.82"
             },
             {
               "source": "column_exact",
@@ -5715,16 +5715,16 @@
               "column_index": 6,
               "row_index": 2,
               "tokens": [
-                "tottocowlcd7",
-                "3,265,823,007 COP",
-                "GMV in COP",
-                "1 COP/COP",
-                "Currency conversion from COP to COP",
+                "tottoecuadorwlpv1",
+                "65.86 USD",
+                "GMV in USD",
+                "3,675.784 COP/USD",
+                "Currency conversion from USD to COP",
                 "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 17,962,026.54"
+                "COP 1,331.48"
               ],
-              "amount": "COP 17,962,026.54"
+              "amount": "COP 1,331.48"
             },
             {
               "source": "column_exact",
@@ -5734,41 +5734,22 @@
               "row_index": 3,
               "tokens": [
                 "tottoecuadorwlpv2",
-                "4.01 USD",
+                "3.34 USD",
                 "GMV in USD",
-                "3,769.602 COP/USD",
+                "3,675.784 COP/USD",
                 "Currency conversion from USD to COP",
                 "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 83.14"
+                "COP 67.52"
               ],
-              "amount": "COP 83.14"
-            },
-            {
-              "source": "column_exact",
-              "scope": "TradePolicy",
-              "box_index": 0,
-              "column_index": 6,
-              "row_index": 4,
-              "tokens": [
-                "tottoqawlcd76",
-                "1,004,000 COP",
-                "GMV in COP",
-                "1 COP/COP",
-                "Currency conversion from COP to COP",
-                "0.55 %",
-                "The selected range was from 0 to infinity",
-                "COP 5,522.00"
-              ],
-              "amount": "COP 5,522.00"
+              "amount": "COP 67.52"
             }
           ],
           "row_indexes": [
             0,
             1,
             2,
-            3,
-            4
+            3
           ]
         },
         {
@@ -5790,7 +5771,7 @@
           "items": [
             {
               "description": "Take Rate - B2B",
-              "amount_text": "COP 10,830,090.00"
+              "amount_text": "COP 14,975,410.80"
             }
           ],
           "_level": "top",
@@ -5806,15 +5787,15 @@
               "row_index": 0,
               "tokens": [
                 "tottocob2b",
-                "3,610,030,000 COP",
+                "4,991,803,600 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.3 %",
                 "The selected range was from 0 to infinity",
-                "COP 10,830,090.00"
+                "COP 14,975,410.80"
               ],
-              "amount": "COP 10,830,090.00"
+              "amount": "COP 14,975,410.80"
             }
           ],
           "row_indexes": [
@@ -5826,7 +5807,7 @@
           "items": [
             {
               "description": "Take Rate - CallCenter",
-              "amount_text": "COP 0.00"
+              "amount_text": "COP 3,820.58"
             }
           ],
           "_level": "top",
@@ -5842,57 +5823,19 @@
               "row_index": 0,
               "tokens": [
                 "tottoco",
-                "383,171,400 COP",
+                "694,650 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
                 "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 2,107,442.70"
+                "COP 3,820.58"
               ],
-              "amount": "COP 2,107,442.70"
-            },
-            {
-              "source": "column_exact",
-              "scope": "TradePolicy",
-              "box_index": 0,
-              "column_index": 8,
-              "row_index": 1,
-              "tokens": [
-                "tottoecuador",
-                "2,450.49 USD",
-                "GMV in USD",
-                "3,769.602 COP/USD",
-                "Currency conversion from USD to COP",
-                "0.55 %",
-                "The selected range was from 0 to infinity",
-                "COP 50,805.54"
-              ],
-              "amount": "COP 50,805.54"
-            },
-            {
-              "source": "column_exact",
-              "scope": "TradePolicy",
-              "box_index": 0,
-              "column_index": 8,
-              "row_index": 2,
-              "tokens": [
-                "tottomexico",
-                "799 MXN",
-                "GMV in MXN",
-                "209.643 COP/MXN",
-                "Currency conversion from MXN to COP",
-                "0.55 %",
-                "The selected range was from 0 to infinity",
-                "COP 921.28"
-              ],
-              "amount": "COP 921.28"
+              "amount": "COP 3,820.58"
             }
           ],
           "row_indexes": [
-            0,
-            1,
-            2
+            0
           ]
         },
         {
@@ -5900,7 +5843,7 @@
           "items": [
             {
               "description": "Take Rate - CertifiedMarketplace",
-              "amount_text": "COP 2,159,169.52"
+              "amount_text": "COP 3,199,350.37"
             }
           ],
           "_level": "top",
@@ -5915,16 +5858,16 @@
               "column_index": 9,
               "row_index": 0,
               "tokens": [
-                "newbrandtotto",
-                "78,772,350 COP",
+                "tottoco",
+                "574,448,150 COP",
                 "GMV in COP",
                 "1 COP/COP",
                 "Currency conversion from COP to COP",
-                "1 %",
+                "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 787,723.50"
+                "COP 3,159,464.83"
               ],
-              "amount": "COP 787,723.50"
+              "amount": "COP 3,159,464.83"
             },
             {
               "source": "column_exact",
@@ -5933,211 +5876,21 @@
               "column_index": 9,
               "row_index": 1,
               "tokens": [
-                "tottobo",
-                "296,337.85 BOB",
-                "GMV in BOB",
-                "544.101 COP/BOB",
-                "Currency conversion from BOB to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 1,612,376.75"
-              ],
-              "amount": "COP 1,612,376.75"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 2,
-              "tokens": [
-                "tottocl",
-                "41,041,609 CLP",
-                "GMV in CLP",
-                "4.186 COP/CLP",
-                "Currency conversion from CLP to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 1,717,859.11"
-              ],
-              "amount": "COP 1,717,859.11"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 3,
-              "tokens": [
-                "tottoco",
-                "3,659,887,788 COP",
-                "GMV in COP",
-                "1 COP/COP",
-                "Currency conversion from COP to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 36,598,877.88"
-              ],
-              "amount": "COP 36,598,877.88"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 4,
-              "tokens": [
-                "tottocob2b",
-                "29,351,400 COP",
-                "GMV in COP",
-                "1 COP/COP",
-                "Currency conversion from COP to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 293,514.00"
-              ],
-              "amount": "COP 293,514.00"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 5,
-              "tokens": [
-                "tottocr",
-                "40,613,023 CRC",
-                "GMV in CRC",
-                "7.58 COP/CRC",
-                "Currency conversion from CRC to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 3,078,379.23"
-              ],
-              "amount": "COP 3,078,379.23"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 6,
-              "tokens": [
-                "tottodo",
-                "189,390 DOP",
-                "GMV in DOP",
-                "59.748 COP/DOP",
-                "Currency conversion from DOP to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 113,157.46"
-              ],
-              "amount": "COP 113,157.46"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 7,
-              "tokens": [
                 "tottoecuador",
-                "54,362.16 USD",
+                "1,972.89 USD",
                 "GMV in USD",
-                "3,769.602 COP/USD",
+                "3,675.784 COP/USD",
                 "Currency conversion from USD to COP",
-                "1 %",
+                "0.55 %",
                 "The selected range was from 0 to infinity",
-                "COP 2,049,237.02"
+                "COP 39,885.55"
               ],
-              "amount": "COP 2,049,237.02"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 8,
-              "tokens": [
-                "tottoelsalvador",
-                "63,266.34 USD",
-                "GMV in USD",
-                "3,769.602 COP/USD",
-                "Currency conversion from USD to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 2,384,889.15"
-              ],
-              "amount": "COP 2,384,889.15"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 9,
-              "tokens": [
-                "tottoguatemala",
-                "3,023,755 GTQ",
-                "GMV in GTQ",
-                "491.489 COP/GTQ",
-                "Currency conversion from GTQ to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 14,861,438.05"
-              ],
-              "amount": "COP 14,861,438.05"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 10,
-              "tokens": [
-                "tottomexico",
-                "208,916 MXN",
-                "GMV in MXN",
-                "209.643 COP/MXN",
-                "Currency conversion from MXN to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 437,978.24"
-              ],
-              "amount": "COP 437,978.24"
-            },
-            {
-              "source": "column_exact",
-              "scope": "Column9",
-              "box_index": 0,
-              "column_index": 9,
-              "row_index": 11,
-              "tokens": [
-                "tottopr",
-                "7,514 USD",
-                "GMV in USD",
-                "3,769.602 COP/USD",
-                "Currency conversion from USD to COP",
-                "1 %",
-                "The selected range was from 0 to infinity",
-                "COP 283,247.89"
-              ],
-              "amount": "COP 283,247.89"
+              "amount": "COP 39,885.55"
             }
           ],
           "row_indexes": [
             0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
+            1
           ]
         },
         {
@@ -6173,15 +5926,245 @@
           "items": [
             {
               "description": "Take Rate - B2C",
-              "amount_text": "COP 64,218,678.29"
+              "amount_text": "COP 88,708,534.08"
             }
           ],
           "_level": "top",
           "column_index_targets": [
             10
           ],
-          "associations": [],
-          "row_indexes": []
+          "associations": [
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 0,
+              "tokens": [
+                "newbrandtotto",
+                "81,874,902 COP",
+                "GMV in COP",
+                "1 COP/COP",
+                "Currency conversion from COP to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 818,749.02"
+              ],
+              "amount": "COP 818,749.02"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 1,
+              "tokens": [
+                "tottobo",
+                "245,327.8 BOB",
+                "GMV in BOB",
+                "531.885 COP/BOB",
+                "Currency conversion from BOB to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 1,304,861.24"
+              ],
+              "amount": "COP 1,304,861.24"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 2,
+              "tokens": [
+                "tottocl",
+                "60,759,541 CLP",
+                "GMV in CLP",
+                "4.207 COP/CLP",
+                "Currency conversion from CLP to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 2,556,268.50"
+              ],
+              "amount": "COP 2,556,268.50"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 3,
+              "tokens": [
+                "tottoco",
+                "5,985,515,377 COP",
+                "GMV in COP",
+                "1 COP/COP",
+                "Currency conversion from COP to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 59,855,153.77"
+              ],
+              "amount": "COP 59,855,153.77"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 4,
+              "tokens": [
+                "tottocob2b",
+                "21,893,300 COP",
+                "GMV in COP",
+                "1 COP/COP",
+                "Currency conversion from COP to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 218,933.00"
+              ],
+              "amount": "COP 218,933.00"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 5,
+              "tokens": [
+                "tottocr",
+                "81,038,406.38 CRC",
+                "GMV in CRC",
+                "7.413 COP/CRC",
+                "Currency conversion from CRC to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 6,007,173.67"
+              ],
+              "amount": "COP 6,007,173.67"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 6,
+              "tokens": [
+                "tottodo",
+                "143,120 DOP",
+                "GMV in DOP",
+                "58.506 COP/DOP",
+                "Currency conversion from DOP to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 83,733.33"
+              ],
+              "amount": "COP 83,733.33"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 7,
+              "tokens": [
+                "tottoecuador",
+                "44,609.81 USD",
+                "GMV in USD",
+                "3,675.784 COP/USD",
+                "Currency conversion from USD to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 1,639,760.27"
+              ],
+              "amount": "COP 1,639,760.27"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 8,
+              "tokens": [
+                "tottoelsalvador",
+                "69,219.01 USD",
+                "GMV in USD",
+                "3,675.784 COP/USD",
+                "Currency conversion from USD to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 2,544,341.31"
+              ],
+              "amount": "COP 2,544,341.31"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 9,
+              "tokens": [
+                "tottoguatemala",
+                "2,582,502 GTQ",
+                "GMV in GTQ",
+                "479.44 COP/GTQ",
+                "Currency conversion from GTQ to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 12,381,548.81"
+              ],
+              "amount": "COP 12,381,548.81"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 10,
+              "tokens": [
+                "tottomexico",
+                "447,524 MXN",
+                "GMV in MXN",
+                "210.458 COP/MXN",
+                "Currency conversion from MXN to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 941,849.36"
+              ],
+              "amount": "COP 941,849.36"
+            },
+            {
+              "source": "column_exact",
+              "scope": "Column10",
+              "box_index": 0,
+              "column_index": 10,
+              "row_index": 11,
+              "tokens": [
+                "tottopr",
+                "9,689.41 USD",
+                "GMV in USD",
+                "3,675.784 COP/USD",
+                "Currency conversion from USD to COP",
+                "1 %",
+                "The selected range was from 0 to infinity",
+                "COP 356,161.78"
+              ],
+              "amount": "COP 356,161.78"
+            }
+          ],
+          "row_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
         }
       ],
       "groups": [
@@ -6190,7 +6173,7 @@
           "mv2_index": 0,
           "found_mv2_w100_d": true,
           "found_ma1": true,
-          "expanded_buttons_count": 10,
+          "expanded_buttons_count": 11,
           "detail_groups": [
             {
               "index": 0,
@@ -11653,7 +11636,7 @@
               "items": [
                 {
                   "description": "B2B Take Rate and InStore Seller - Monthly Adjustment",
-                  "amount_text": "-COP 8,101,533.79"
+                  "amount_text": "-COP 3,322,190.59"
                 }
               ],
               "_level": "nested",
@@ -11669,13 +11652,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ],
-                  "amount": "-COP 8,101,533.79"
+                  "amount": "-COP 3,322,190.59"
                 }
               ],
               "row_indexes": [
@@ -11715,7 +11698,7 @@
               "items": [
                 {
                   "description": "Take Rate - SalesAppDeliveredByMainAccount",
-                  "amount_text": "COP 8,089,206.39"
+                  "amount_text": "COP 8,444,280.73"
                 }
               ],
               "_level": "nested",
@@ -11731,15 +11714,15 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ],
-                  "amount": "COP 33,602.73"
+                  "amount": "COP 52,260.74"
                 },
                 {
                   "source": "column_exact",
@@ -11749,15 +11732,15 @@
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ],
-                  "amount": "COP 8,055,603.66"
+                  "amount": "COP 8,392,019.99"
                 }
               ],
               "row_indexes": [
@@ -11784,7 +11767,7 @@
               "items": [
                 {
                   "description": "Take Rate - InternalCertifiedMarketplaceAndIsParentAccount",
-                  "amount_text": "COP 18,865,672.86"
+                  "amount_text": "COP 13,438,498.18"
                 }
               ],
               "_level": "nested",
@@ -11799,16 +11782,16 @@
                   "column_index": 6,
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ],
-                  "amount": "COP 2,749.45"
+                  "amount": "COP 1,198,303.36"
                 },
                 {
                   "source": "column_exact",
@@ -11817,16 +11800,16 @@
                   "column_index": 6,
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ],
-                  "amount": "COP 895,291.73"
+                  "amount": "COP 12,238,795.82"
                 },
                 {
                   "source": "column_exact",
@@ -11835,16 +11818,16 @@
                   "column_index": 6,
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ],
-                  "amount": "COP 17,962,026.54"
+                  "amount": "COP 1,331.48"
                 },
                 {
                   "source": "column_exact",
@@ -11854,41 +11837,22 @@
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
+                    "COP 67.52"
                   ],
-                  "amount": "COP 83.14"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "TradePolicy",
-                  "box_index": 0,
-                  "column_index": 6,
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
-                  ],
-                  "amount": "COP 5,522.00"
+                  "amount": "COP 67.52"
                 }
               ],
               "row_indexes": [
                 0,
                 1,
                 2,
-                3,
-                4
+                3
               ]
             },
             {
@@ -11910,7 +11874,7 @@
               "items": [
                 {
                   "description": "Take Rate - B2B",
-                  "amount_text": "COP 10,830,090.00"
+                  "amount_text": "COP 14,975,410.80"
                 }
               ],
               "_level": "nested",
@@ -11926,15 +11890,15 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ],
-                  "amount": "COP 10,830,090.00"
+                  "amount": "COP 14,975,410.80"
                 }
               ],
               "row_indexes": [
@@ -11946,7 +11910,7 @@
               "items": [
                 {
                   "description": "Take Rate - CallCenter",
-                  "amount_text": "COP 0.00"
+                  "amount_text": "COP 3,820.58"
                 }
               ],
               "_level": "nested",
@@ -11962,57 +11926,19 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
+                    "COP 3,820.58"
                   ],
-                  "amount": "COP 2,107,442.70"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "TradePolicy",
-                  "box_index": 0,
-                  "column_index": 8,
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ],
-                  "amount": "COP 50,805.54"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "TradePolicy",
-                  "box_index": 0,
-                  "column_index": 8,
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
-                  ],
-                  "amount": "COP 921.28"
+                  "amount": "COP 3,820.58"
                 }
               ],
               "row_indexes": [
-                0,
-                1,
-                2
+                0
               ]
             },
             {
@@ -12020,7 +11946,7 @@
               "items": [
                 {
                   "description": "Take Rate - CertifiedMarketplace",
-                  "amount_text": "COP 2,159,169.52"
+                  "amount_text": "COP 3,199,350.37"
                 }
               ],
               "_level": "nested",
@@ -12035,16 +11961,16 @@
                   "column_index": 9,
                   "row_index": 0,
                   "tokens": [
-                    "newbrandtotto",
-                    "78,772,350 COP",
+                    "tottoco",
+                    "574,448,150 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
-                    "1 %",
+                    "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 3,159,464.83"
                   ],
-                  "amount": "COP 787,723.50"
+                  "amount": "COP 3,159,464.83"
                 },
                 {
                   "source": "column_exact",
@@ -12053,211 +11979,21 @@
                   "column_index": 9,
                   "row_index": 1,
                   "tokens": [
-                    "tottobo",
-                    "296,337.85 BOB",
-                    "GMV in BOB",
-                    "544.101 COP/BOB",
-                    "Currency conversion from BOB to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
-                  ],
-                  "amount": "COP 1,612,376.75"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 2,
-                  "tokens": [
-                    "tottocl",
-                    "41,041,609 CLP",
-                    "GMV in CLP",
-                    "4.186 COP/CLP",
-                    "Currency conversion from CLP to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
-                  ],
-                  "amount": "COP 1,717,859.11"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 3,
-                  "tokens": [
-                    "tottoco",
-                    "3,659,887,788 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
-                  ],
-                  "amount": "COP 36,598,877.88"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 4,
-                  "tokens": [
-                    "tottocob2b",
-                    "29,351,400 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
-                  ],
-                  "amount": "COP 293,514.00"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 5,
-                  "tokens": [
-                    "tottocr",
-                    "40,613,023 CRC",
-                    "GMV in CRC",
-                    "7.58 COP/CRC",
-                    "Currency conversion from CRC to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
-                  ],
-                  "amount": "COP 3,078,379.23"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 6,
-                  "tokens": [
-                    "tottodo",
-                    "189,390 DOP",
-                    "GMV in DOP",
-                    "59.748 COP/DOP",
-                    "Currency conversion from DOP to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
-                  ],
-                  "amount": "COP 113,157.46"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 7,
-                  "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "1,972.89 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
-                    "1 %",
+                    "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 39,885.55"
                   ],
-                  "amount": "COP 2,049,237.02"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 8,
-                  "tokens": [
-                    "tottoelsalvador",
-                    "63,266.34 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
-                  ],
-                  "amount": "COP 2,384,889.15"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 9,
-                  "tokens": [
-                    "tottoguatemala",
-                    "3,023,755 GTQ",
-                    "GMV in GTQ",
-                    "491.489 COP/GTQ",
-                    "Currency conversion from GTQ to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
-                  ],
-                  "amount": "COP 14,861,438.05"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 10,
-                  "tokens": [
-                    "tottomexico",
-                    "208,916 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
-                  ],
-                  "amount": "COP 437,978.24"
-                },
-                {
-                  "source": "column_exact",
-                  "scope": "Column9",
-                  "box_index": 0,
-                  "column_index": 9,
-                  "row_index": 11,
-                  "tokens": [
-                    "tottopr",
-                    "7,514 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "1 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
-                  ],
-                  "amount": "COP 283,247.89"
+                  "amount": "COP 39,885.55"
                 }
               ],
               "row_indexes": [
                 0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11
+                1
               ]
             },
             {
@@ -12293,15 +12029,245 @@
               "items": [
                 {
                   "description": "Take Rate - B2C",
-                  "amount_text": "COP 64,218,678.29"
+                  "amount_text": "COP 88,708,534.08"
                 }
               ],
               "_level": "nested",
               "column_index_targets": [
                 10
               ],
-              "associations": [],
-              "row_indexes": []
+              "associations": [
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 0,
+                  "tokens": [
+                    "newbrandtotto",
+                    "81,874,902 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 818,749.02"
+                  ],
+                  "amount": "COP 818,749.02"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 1,
+                  "tokens": [
+                    "tottobo",
+                    "245,327.8 BOB",
+                    "GMV in BOB",
+                    "531.885 COP/BOB",
+                    "Currency conversion from BOB to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 1,304,861.24"
+                  ],
+                  "amount": "COP 1,304,861.24"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 2,
+                  "tokens": [
+                    "tottocl",
+                    "60,759,541 CLP",
+                    "GMV in CLP",
+                    "4.207 COP/CLP",
+                    "Currency conversion from CLP to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 2,556,268.50"
+                  ],
+                  "amount": "COP 2,556,268.50"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 3,
+                  "tokens": [
+                    "tottoco",
+                    "5,985,515,377 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 59,855,153.77"
+                  ],
+                  "amount": "COP 59,855,153.77"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 4,
+                  "tokens": [
+                    "tottocob2b",
+                    "21,893,300 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 218,933.00"
+                  ],
+                  "amount": "COP 218,933.00"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 5,
+                  "tokens": [
+                    "tottocr",
+                    "81,038,406.38 CRC",
+                    "GMV in CRC",
+                    "7.413 COP/CRC",
+                    "Currency conversion from CRC to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 6,007,173.67"
+                  ],
+                  "amount": "COP 6,007,173.67"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 6,
+                  "tokens": [
+                    "tottodo",
+                    "143,120 DOP",
+                    "GMV in DOP",
+                    "58.506 COP/DOP",
+                    "Currency conversion from DOP to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 83,733.33"
+                  ],
+                  "amount": "COP 83,733.33"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 7,
+                  "tokens": [
+                    "tottoecuador",
+                    "44,609.81 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 1,639,760.27"
+                  ],
+                  "amount": "COP 1,639,760.27"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 8,
+                  "tokens": [
+                    "tottoelsalvador",
+                    "69,219.01 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 2,544,341.31"
+                  ],
+                  "amount": "COP 2,544,341.31"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 9,
+                  "tokens": [
+                    "tottoguatemala",
+                    "2,582,502 GTQ",
+                    "GMV in GTQ",
+                    "479.44 COP/GTQ",
+                    "Currency conversion from GTQ to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 12,381,548.81"
+                  ],
+                  "amount": "COP 12,381,548.81"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 10,
+                  "tokens": [
+                    "tottomexico",
+                    "447,524 MXN",
+                    "GMV in MXN",
+                    "210.458 COP/MXN",
+                    "Currency conversion from MXN to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 941,849.36"
+                  ],
+                  "amount": "COP 941,849.36"
+                },
+                {
+                  "source": "column_exact",
+                  "scope": "Column10",
+                  "box_index": 0,
+                  "column_index": 10,
+                  "row_index": 11,
+                  "tokens": [
+                    "tottopr",
+                    "9,689.41 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "1 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 356,161.78"
+                  ],
+                  "amount": "COP 356,161.78"
+                }
+              ],
+              "row_indexes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
             }
           ]
         }
@@ -15826,11 +15792,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -15842,26 +15808,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -15872,66 +15838,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -15943,13 +15896,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -15961,39 +15914,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -16004,157 +15931,188 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            },
+            {
+              "column_index": 10,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
@@ -19678,11 +19636,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -19694,26 +19652,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -19724,66 +19682,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -19795,13 +19740,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -19813,39 +19758,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -19856,157 +19775,188 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            },
+            {
+              "column_index": 10,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
@@ -23530,11 +23480,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -23546,26 +23496,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -23576,66 +23526,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -23647,13 +23584,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -23665,39 +23602,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -23708,157 +23619,188 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            },
+            {
+              "column_index": 10,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
@@ -27382,11 +27324,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -27398,26 +27340,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -27428,66 +27370,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -27499,13 +27428,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -27517,39 +27446,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -27560,157 +27463,188 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            },
+            {
+              "column_index": 10,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
@@ -31234,11 +31168,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -31250,26 +31184,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -31280,66 +31214,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -31351,13 +31272,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -31369,39 +31290,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -31412,157 +31307,188 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            },
+            {
+              "column_index": 10,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
@@ -35110,11 +35036,11 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "8,101,533.79",
+                    "3,322,190.59",
                     "Category: SaaS - Platform",
                     "-1 COP",
                     "The selected range was from 0 to infinity",
-                    "-COP 8,101,533.79"
+                    "-COP 3,322,190.59"
                   ]
                 }
               ]
@@ -35132,26 +35058,26 @@
                   "row_index": 0,
                   "tokens": [
                     "newbrandtotto",
-                    "11,200,911 COP",
+                    "17,420,245 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 33,602.73"
+                    "COP 52,260.74"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottoco",
-                    "2,685,201,220 COP",
+                    "2,797,339,997 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 8,055,603.66"
+                    "COP 8,392,019.99"
                   ]
                 }
               ]
@@ -35168,66 +35094,53 @@
                 {
                   "row_index": 0,
                   "tokens": [
-                    "toparaqawlcd7",
-                    "499,900 COP",
+                    "tottocowlcd076",
+                    "217,873,338 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,749.45"
+                    "COP 1,198,303.36"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
-                    "tottocowlcd076",
-                    "162,780,315 COP",
+                    "tottocowlcd7",
+                    "2,225,235,604 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 895,291.73"
+                    "COP 12,238,795.82"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
-                    "tottocowlcd7",
-                    "3,265,823,007 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
+                    "tottoecuadorwlpv1",
+                    "65.86 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 17,962,026.54"
+                    "COP 1,331.48"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoecuadorwlpv2",
-                    "4.01 USD",
+                    "3.34 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 83.14"
-                  ]
-                },
-                {
-                  "row_index": 4,
-                  "tokens": [
-                    "tottoqawlcd76",
-                    "1,004,000 COP",
-                    "GMV in COP",
-                    "1 COP/COP",
-                    "Currency conversion from COP to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 5,522.00"
+                    "COP 67.52"
                   ]
                 }
               ]
@@ -35245,13 +35158,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottocob2b",
-                    "3,610,030,000 COP",
+                    "4,991,803,600 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.3 %",
                     "The selected range was from 0 to infinity",
-                    "COP 10,830,090.00"
+                    "COP 14,975,410.80"
                   ]
                 }
               ]
@@ -35269,39 +35182,13 @@
                   "row_index": 0,
                   "tokens": [
                     "tottoco",
-                    "383,171,400 COP",
+                    "694,650 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "0.55 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,107,442.70"
-                  ]
-                },
-                {
-                  "row_index": 1,
-                  "tokens": [
-                    "tottoecuador",
-                    "2,450.49 USD",
-                    "GMV in USD",
-                    "3,769.602 COP/USD",
-                    "Currency conversion from USD to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 50,805.54"
-                  ]
-                },
-                {
-                  "row_index": 2,
-                  "tokens": [
-                    "tottomexico",
-                    "799 MXN",
-                    "GMV in MXN",
-                    "209.643 COP/MXN",
-                    "Currency conversion from MXN to COP",
-                    "0.55 %",
-                    "The selected range was from 0 to infinity",
-                    "COP 921.28"
+                    "COP 3,820.58"
                   ]
                 }
               ]
@@ -35318,157 +35205,194 @@
                 {
                   "row_index": 0,
                   "tokens": [
+                    "tottoco",
+                    "574,448,150 COP",
+                    "GMV in COP",
+                    "1 COP/COP",
+                    "Currency conversion from COP to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 3,159,464.83"
+                  ]
+                },
+                {
+                  "row_index": 1,
+                  "tokens": [
+                    "tottoecuador",
+                    "1,972.89 USD",
+                    "GMV in USD",
+                    "3,675.784 COP/USD",
+                    "Currency conversion from USD to COP",
+                    "0.55 %",
+                    "The selected range was from 0 to infinity",
+                    "COP 39,885.55"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sibling_index": 0,
+          "box_index": 15,
+          "columns": [
+            {
+              "column_index": 0,
+              "rows": [
+                {
+                  "row_index": 0,
+                  "tokens": [
                     "newbrandtotto",
-                    "78,772,350 COP",
+                    "81,874,902 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 787,723.50"
+                    "COP 818,749.02"
                   ]
                 },
                 {
                   "row_index": 1,
                   "tokens": [
                     "tottobo",
-                    "296,337.85 BOB",
+                    "245,327.8 BOB",
                     "GMV in BOB",
-                    "544.101 COP/BOB",
+                    "531.885 COP/BOB",
                     "Currency conversion from BOB to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,612,376.75"
+                    "COP 1,304,861.24"
                   ]
                 },
                 {
                   "row_index": 2,
                   "tokens": [
                     "tottocl",
-                    "41,041,609 CLP",
+                    "60,759,541 CLP",
                     "GMV in CLP",
-                    "4.186 COP/CLP",
+                    "4.207 COP/CLP",
                     "Currency conversion from CLP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 1,717,859.11"
+                    "COP 2,556,268.50"
                   ]
                 },
                 {
                   "row_index": 3,
                   "tokens": [
                     "tottoco",
-                    "3,659,887,788 COP",
+                    "5,985,515,377 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 36,598,877.88"
+                    "COP 59,855,153.77"
                   ]
                 },
                 {
                   "row_index": 4,
                   "tokens": [
                     "tottocob2b",
-                    "29,351,400 COP",
+                    "21,893,300 COP",
                     "GMV in COP",
                     "1 COP/COP",
                     "Currency conversion from COP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 293,514.00"
+                    "COP 218,933.00"
                   ]
                 },
                 {
                   "row_index": 5,
                   "tokens": [
                     "tottocr",
-                    "40,613,023 CRC",
+                    "81,038,406.38 CRC",
                     "GMV in CRC",
-                    "7.58 COP/CRC",
+                    "7.413 COP/CRC",
                     "Currency conversion from CRC to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 3,078,379.23"
+                    "COP 6,007,173.67"
                   ]
                 },
                 {
                   "row_index": 6,
                   "tokens": [
                     "tottodo",
-                    "189,390 DOP",
+                    "143,120 DOP",
                     "GMV in DOP",
-                    "59.748 COP/DOP",
+                    "58.506 COP/DOP",
                     "Currency conversion from DOP to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 113,157.46"
+                    "COP 83,733.33"
                   ]
                 },
                 {
                   "row_index": 7,
                   "tokens": [
                     "tottoecuador",
-                    "54,362.16 USD",
+                    "44,609.81 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,049,237.02"
+                    "COP 1,639,760.27"
                   ]
                 },
                 {
                   "row_index": 8,
                   "tokens": [
                     "tottoelsalvador",
-                    "63,266.34 USD",
+                    "69,219.01 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 2,384,889.15"
+                    "COP 2,544,341.31"
                   ]
                 },
                 {
                   "row_index": 9,
                   "tokens": [
                     "tottoguatemala",
-                    "3,023,755 GTQ",
+                    "2,582,502 GTQ",
                     "GMV in GTQ",
-                    "491.489 COP/GTQ",
+                    "479.44 COP/GTQ",
                     "Currency conversion from GTQ to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 14,861,438.05"
+                    "COP 12,381,548.81"
                   ]
                 },
                 {
                   "row_index": 10,
                   "tokens": [
                     "tottomexico",
-                    "208,916 MXN",
+                    "447,524 MXN",
                     "GMV in MXN",
-                    "209.643 COP/MXN",
+                    "210.458 COP/MXN",
                     "Currency conversion from MXN to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 437,978.24"
+                    "COP 941,849.36"
                   ]
                 },
                 {
                   "row_index": 11,
                   "tokens": [
                     "tottopr",
-                    "7,514 USD",
+                    "9,689.41 USD",
                     "GMV in USD",
-                    "3,769.602 COP/USD",
+                    "3,675.784 COP/USD",
                     "Currency conversion from USD to COP",
                     "1 %",
                     "The selected range was from 0 to infinity",
-                    "COP 283,247.89"
+                    "COP 356,161.78"
                   ]
                 }
               ]
