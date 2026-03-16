@@ -88,7 +88,7 @@ async def extract_cop_spans_between_groups(mg):
 
 
 # ======================================================================
-#   BLOQUES SUPERIORES (3 columnas)
+#   BLOQUES SUPERIORES (3 columnas) // no siempre tienen bloques 
 # ======================================================================
 
 async def collect_three_blocks_between_groups(mg):
@@ -849,22 +849,9 @@ async def extract_charge_ranges_inside_paid_boxes(mg):
                         ).map(s=>norm(s.textContent)).filter(Boolean);
 
                         const skipSet = new Set(['X','x','=']);
-                        const isPositive =
-                            div.classList.contains('positive-value-light')
-                            || div.classList.contains('positive-value');
 
                         if(mainText && !skipSet.has(mainText)){
-                            if(isPositive){
-                                outTokens.push(mainText);
-                            } else {
-                                const hasNumber = /\d/.test(mainText);
-                                const mon = mainText.match(/\b([A-Z]{3})\b/);
-                                if(hasNumber && mon){
-                                    outTokens.push(mon[1]);
-                                } else {
-                                    outTokens.push(mainText);
-                                }
-                            }
+                            outTokens.push(mainText);
                         }
 
                         smalls.forEach(t=>{

@@ -70,7 +70,7 @@ async def run(
         # (B) Login / aterrizaje en facturas
         await login_and_open(page, account, email, login_url=login_url)
 
-        # (C) Confirmar que cargó algo útil
+        # (C) Confirmar que cargó algo útil --> siempre dice que no encuentra 
         body_ok = await safe_wait(page, "body.vtex-topbar-born", timeout=90000, state="attached")
         if not body_ok:
             print("[ADVERTENCIA] No encontré <body.vtex-topbar-born>. Continúo con el DOM actual.")

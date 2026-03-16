@@ -108,7 +108,7 @@ def _pick_amount_from_tokens(tokens: List[str]) -> Optional[str]:
 
 # ===================== Config =====================
 CONCEPT_TITLES: Dict[int,str] = {
-    0: 'Voucher para condiciones de cobro diferenciadas',
+    0: 'Tarifa mensual fija de mantenimiento y monitoreo',
     1: 'Tarifa mensual fija de mantenimiento de cada ambiente adicional',
     2: 'Tarifa mensual fija de mantenimiento de cada política comercial adicional',
     3: 'Tasa mensual fija de mantenimiento de cada Seller White Label',
@@ -130,16 +130,32 @@ CONCEPT_DEFAULT_CURRENCY: Dict[int,str] = {i: 'COP' for i in CONCEPT_TITLES.keys
 
 # Base 1:1 + overrides ESTÁTICOS (fijos)
 EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {i: {i} for i in CONCEPT_TITLES.keys()}
-EXACT_COLUMNS_BY_CONCEPT.update({
-    7:  {5},   # SalesAppDeliveredByMainAccount -> col 5 (fijo)
-    9:  {6},   # InternalCertifiedMarketplaceAndIsParentAccount -> col 6 (fijo)
-    11: {7},   # B2B -> col 7
-    12: {8},   # CallCenter -> col 8
-    13: {9},   # CertifiedMarketplace -> col 9
-    14: {10},  # CertifiedSeller -> col 10
-    15: {10},  # ExternalSeller -> col 10
-    16: {10},  # B2C -> col 10
-})
+EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {
+    # Mapeo 1:1 para conceptos de tarifa fija (el índice del concepto coincide con el de la columna)
+    0: {0},  # Tarifa mensual fija de mantenimiento y monitoreo
+    1: {1},  # Tarifa mensual fija de mantenimiento de cada ambiente adicional
+    2: {2},  # Tarifa mensual fija de mantenimiento de cada política comercial adicional
+    3: {3},  # Tasa mensual fija de mantenimiento de cada Seller White Label
+    4: {4},  # B2B Take Rate and InStore Seller - Monthly Adjustment
+
+    # Mapeos específicos donde el índice del concepto NO coincide con el de la columna
+    7: {5},   # Take Rate - SalesAppDeliveredByMainAccount -> Mapeado a la columna 5
+    9: {6},   # Take Rate - InternalCertifiedMarketplaceAndIsParentAccount -> Mapeado a la columna 6
+    11: {7},  # Take Rate - B2B -> Mapeado a la columna 7
+    12: {8},  # Take Rate - CallCenter -> Mapeado a la columna 8
+    13: {9},  # Take Rate - CertifiedMarketplace -> Mapeado a la columna 9
+
+    # Mapeos a una columna compartida (columna 10)
+    14: {10}, # Take Rate - CertifiedSeller
+    15: {10}, # Take Rate - ExternalSeller
+    16: {10}, # Take Rate - B2C
+
+    # Conceptos que generalmente no tienen detalles o su valor es 0
+    5: set(), # Take Rate - OnHandsFulfillment
+    6: set(), # Take Rate - InternalCertifiedSellerAndIsChildAccount
+    8: set(), # Take Rate - InStore
+    10: set(),# Take Rate - SellerPortal
+}
 
 # 'Solo resumen' cuando no hay botón o amount=0
 SUMMARY_ONLY_INDEXES = {5,6,8,10,14,15}
@@ -337,8 +353,17 @@ def _format_link_to_row(link: Dict[str, Any], concept: str, concept_index: Any, 
 
     t0 = tokens[0] if len(tokens)>=1 else '-'
     pais_pv='-' if t0 in ('USD','COP') else (t0 or '-')
-    concepto2 = tokens[2] if len(tokens)>=3 and tokens[2].lower().startswith('gmv in') else (tokens[1] if len(tokens)>=2 else '-')
-    mids = tokens[3:] if len(tokens)>=4 else tokens[2:]
+
+    if len(tokens) >= 3 and "gmv in" in tokens[2].lower():
+        # Caso especial GMV: [pais, valor_gmv, desc_gmv, ...]
+        # Se combinan valor_gmv y desc_gmv en el "Concepto II"
+        concepto2 = '; '.join(filter(None, [tokens[1], tokens[2]]))
+        mids = tokens[3:]
+    else:
+        # Caso normal: se mantiene la lógica original que ya funcionaba para los demás.
+        concepto2 = tokens[1] if len(tokens) >= 2 else '-'
+        mids = tokens[3:] if len(tokens) >= 4 else tokens[2:]
+
     if mids and (mids[-1].replace('\u00A0',' ').strip().lower() == (amt_txt or '').replace('\u00A0',' ').strip().lower()):
         mids = mids[:-1]
     mids=[t for t in mids if t.lower() not in ('usd','cop')]
