@@ -1,129 +1,222 @@
-🚀 EXTRACTOR BILLING VTEX – Automatización de Facturación
-Versión: 2.0
-Lenguaje: Python 3.11 / 3.12
-**CCopyright © 2026 Julian Andrés Valencia Amezquita
-Organización: Nalsani S.A.S – Ecommerce / Automatización
+# EXTRACTOR_BILLING_ADM_VTEX V.2.0 
+**Lenguaje:** Python 3.11.9 (version estable recomendada)
 
-📌 DESCRIPCION GENERAL --------------------------------------------
-Este proyecto automatiza la extracción de información del módulo
-VTEX Admin → Billing → Invoices, utilizando Playwright para navegación automatizada.
-El extractor:
+---
 
-Identifica bloques de facturación mensuales (month-groups).
-Extrae información detallada (ítems, descripciones, montos).
-Normaliza la información eliminando caracteres invisibles y duplicados.
-Genera diferentes formatos de salida para análisis contable.
+## Autoría 
+- **Equipo:** Nalsani S.A.S. (Ecommerce / Automatización)
+- **Área:** Mercadeo
+- **Rol:** Practicante ADSO SENA
+- **Encargado:**
+- **CCopyright © 2026 Julian Andrés Valencia Amezquita
+contacto interno:** *(ajustar según políticas de la empresa en cuanto autoria , acceso y tratamiento de la informacion con la que se ejecuta la API)*
+- **Dirigido a:** Miguel Angel Gonzales - Especialista Vtex
 
+---
 
-📂 ARCHIVOS GENERADOS ---------------------------------------------
-Al finalizar la ejecución, el script produce:
-🟦 JSON completo
-billing_downloads/meses_invoices.json
-→ Estructura detallada de todos los bloques del mes.
-🟩 CSV minimal
-billing_downloads/meses_invoices.csv
-Columnas:
-
-description
-amount_text (ej. USD 211.85, -COP 8,101,533.79)
-
-Ideal para análisis rápido, conciliaciones y auditoría.
-
-⚙️ INSTALACION ____________________________________________________
-1. Instalar Python
-Recomendado: Python 3.12
-Windows:
-Descargar desde https://python.org e incluir Add to PATH.
-Linux/macOS:
-Shellsudo apt install python3 python3-pip    # Ubuntu/Debianbrew install python                     # macOSMostrar más líneas
-
-2. Crear entorno virtual
-Shellpython -m venv .venv.\.venv\Scripts\Activate.ps1   # WindowsMostrar más líneas
-
-3. Instalar dependencias
-Shellpip install -r requirements.txtMostrar más líneas
-Instalar Playwright y navegador:
-Shellpip install playwrightplaywright install chromiumMostrar más líneas
-
-▶️ EJECUCION DE API_EXTRACTOR
-Ejecutar desde la raíz del proyecto:
-Shellpython vtex_invoices_dom_exact.py \  
---account tottoco \  
---email usuario@correo.com \ 
---year 2025 \  
---month-start 12 \  
---month-end 12 \ 
---headless=false \  
---debug=trueMostrar más líneas
-Usa --headless=false 
-
-si debes completar manualmente SSO/MFA.
+## INTRODUCCION:  Servicio de Extraccion Billing_vtex
+Es una CLI de extracción (scraping asistido) que entra al Admin de VTEX, localiza grupos por mes (“month-group”), expande bloques de detalles, extrae textos y montos, y normaliza la salida.
+Genera un JSON “completo” por mes y un CSV/XLSX “formateado” (con columnas de negocio). Luego, en main.py, se hace un post-proceso para enriquecer y generar el CSV oficial con nuevo formato de asociaciones
 
 
-🔧 PARAMETRO CLI
+## API Facturacion_vtex
+V 2.0 
+- Division de proyecto en archivos para facilitar testeo y organizacion de codigo
+- API enpaquetada en Virtualenv para facilitar ejecucion 
 
-ParámetroDescripción--accountSubdominio de la cuenta VTEX 
-(ej: tottoco)--emailUsuario administrador VTEX--yearAño de 
-facturación--month-startMes inicial--month-endMes final--headlesstrue/false 
-para ejecución sin interfaz--debugGuarda capturas HTML/PNG
+---
 
-🧠 LOGICA SCRIPT
+## Comando de ejecucion 
+python vtex_invoices_dom_exact.py --account tottoco --email ejemploo@totto.com --year 2025 --month-start 12 --month-end 12 --headless false --debug true
 
-Manejo de login incluyendo MFA (cuando headless=false).
-Recorrido dinámico de bloques:
+----
 
-third_block
-f4_details
-mv2_ma1_details
-list-group-item paid
+## Descripción
+Este módulo automatiza la extracción de datos del módulo **Billing → Invoices** en VTEX Admin usando **Playwright**.
+Recolecta información por mes (*month-group*) con un filtro que va desde month-start hasta month-end y genera:
 
+- **JSON completo** con toda la estructura recolectada: `billing_downloads/meses_invoices.json`.
+- **CSV minimal** con solo dos columnas: `description` y `amount_text`: `billing_downloads/meses_invoices.csv`.
 
-Limpieza de caracteres invisibles (NBSP).
-Exportaciones en JSON y CSV.
+Es ideal para análisis rápido en Excel/Sheets y auditorías de costos de facturación.
 
+---
+## 1) INSTALACION DE PYTHON 3.12 Y DEPENDENCIAS
 
-📁 ESTRUCTURA DEL PROYECTO
-/Extractor_Billing_Vtex
- ├── vtex_invoices/
- │   ├── main.py
- │   ├── extractors.py
- │   ├── login.py
- │   ├── utils.py
+1.1-**Python 3.12** (version recomendada)
+- py install python.python3.12
+
+1.2**Virtualenv**
+- pip install virtualenv
+
+1.3**Actovar Virtualenv e Instalar Dependencias requirements**
+python -m venv .venv 
+.\.venv\Scripts\Activate.ps1   # Windows
+pip install -r requirements.txt
+
+1.4**Instalar navegador Chromium**
+- playwright install chromium
+
+**DEPENDENCIAS**
+black==26.1.0
+click==8.3.1
+colorama==0.4.6
+greenlet==3.3.0
+mypy_extensions==1.1.0
+packaging==26.0
+pathspec==1.0.3
+platformdirs==4.5.1
+pyee==13.0.0
+pytokens==0.4.0
+typing_extensions==4.15.0
+
+**DEPENDENCIAS**
+- pip install playwright
+- pip install asyncio
+- pip install argparse
+- pip install json5
+
+**NAVEGADOR**
+playwright install chromium
+---
+
+### 1.1 Instalación de Python
+- **Windows:** descargar desde el sitio oficial y marcar *Add Python to PATH*.
+- **macOS:**
+  ```bash
+  brew install python
+  ```
+- **Linux (Ubuntu/Debian):**
+  ```bash
+  sudo apt install python3 python3-pip
+  ```
+Verificar:
+```bash
+python --version
+```
+
+### 1.2 Instalación rápida de librerías
+```bash
+pip install playwright
+playwright install
+```
+
+### 1.3 Requisitos del sistema
+- Windows, macOS o Linux
+- Acceso a internet (para VTEX Admin)
+- Permisos para instalar software
+
+---
+
+## 2) Archivos de salida
+- **JSON:** `billing_downloads/meses_invoices.json`
+- **CSV minimal:** `billing_downloads/meses_invoices.csv`
+
+Columnas del CSV minimal:
+- `description`
+- `amount_text` (valor con moneda, p. ej. `USD 211.85`, `-COP 8,101,533.79`)
+
+---
+
+## 3) Configuración (antes de ejecutar)
+Parámetros CLI:
+```bash
+--account       Subdominio myvtex (ej. tottoco)
+--email         Correo admin VTEX (ej. prac_desarrollo@totto.com)
+--year          Año de facturación (ej. 2025)
+--month-start   Mes inicial (1–12)
+--month-end     Mes final (1–12)
+--headless      true/false (usa false si necesitas completar SSO/MFA)
+--debug         true/false (guarda HTML/PNG de diagnóstico)
+```
+
+---
+
+## 4) Lógica clave del script
+- **Login:** maneja SSO/MFA manual si `--headless=false`.
+- **Extracción:**
+  - Detecta `month-group` y recorre *siblings* hasta el siguiente grupo.
+  - Expande y lee ítems en:
+    - 3er bloque (`third_block`)
+    - Contenedor f4 (`f4_details`)
+    - mv2→ma1 (`mv2_ma1_details`)
+    - `list-group-item paid` (`paid_list_groups`)
+- **Normalización:** elimina NBSP y espacios extra.
+- **Exportación:**
+  - JSON completo.
+  - CSV minimal con `description` y `amount_text`.
+
+---
+
+## 5) Ejecución
+1. Abre una terminal en la carpeta del proyecto.
+2. Ejecuta:
+```bash
+python vtex_invoices_dom_exact.py --account tottoco --email prac_desarrollo@totto.com --year 2025 --month-start 12 --month-end 12 --headless=false --debug=true
+```
+> Si tu entorno usa `python3`:
+```bash
+python3 vtex_invoices_dom_exact.py --account tottoco --email prac_desarrollo@totto.com --year 2025 --month-start 12 --month-end 12 --headless=false --debug=true
+```
+
+---
+
+## 6) Estructura sugerida del proyecto
+```
+/proyecto
+ ├── src/
+ │    └── vtex_invoices_dom_exact.py
  ├── billing_downloads/
- ├── run-billing.ps1
- ├── requirements.txt
+ │    ├── meses_invoices.json
+ │    └── meses_invoices.csv
  ├── README.md
+ └── requirements.txt
+```
 
+### 6.1 `requirements.txt`
+```
+playwright
+asyncio
+```
 
-🛠️ run-billing.ps1 – Ejecución desde PowerShell
+---
 
-ComandoAcción.\run-billing.ps1Ejecución normal.\run-billing.ps1 
--ForceRelogin $trueNuevo login.\run-billing.ps1 
--ForceRelogin $true 
--UseSavedSession $falseLogin completamente limpio
+## 7) Errores comunes y cómo resolverlos
+- **FileNotFoundError:** revisa permisos y rutas de salida.
+- **SSO/MFA bloqueado:** usa `--headless=false` para completar manualmente.
+- **Filas vacías:** si no hay `description` o `amount_text`, la fila se omite en el CSV.
+- **Permisos de escritura:** asegúrate que `billing_downloads/` exista; el script lo crea si no.
 
-⚠️ ERRORES COMUNES
+---
 
-Archivos abiertos en billing_downloads
-→ Cerrar CSV/XLSX antes de ejecutar.
+## 8) Notas finales
+- El CSV minimal está diseñado para análisis rápido. Si necesitas más columnas (mes/año), puedes ampliar el *flatten*.
+- Revisa periódicamente los selectores si VTEX cambia el HTML.
 
-Filas vacías en CSV:
-→ Ocurre cuando VTEX no devuelve description o amount_text.
+---
 
-SSO bloqueado / MFA:
-→ Ejecutar con --headless=false.
+## 9) EJECUTAR CON run-billing.ps1.py 
+- Ejecutar normal: .\run-billing.ps1
+- login nuevo: .\run-billing.ps1 -ForceRelogin $true
+- Login 100 % limpio:  .\run-billing.ps1 -ForceRelogin $true -UseSavedSession $false
 
-FileNotFoundError:
-→ Verificar que billing_downloads/ exista (el script la crea).
+## 10) Licencia y uso interno
+Documento de uso interno del equipo **Nalsani S.A.S.**. Ajustar difusión según políticas de la empresa.
 
+## 10) OBSRVACIONES:
 
-🔒 LICENCIA DE ENTORNO
-Proyecto de uso interno para Nalsani S.A.S.
-**CCopyright © 2026 Julian Andrés Valencia Amezquita
-Adaptar según políticas corporativas de manejo de información.
+- No dejar archivos de la carpeta billing_downloads abiertos como .csv, xlsx, json.etc. ya que al ejecutar hace uso de estos archivos y no permite sobreescribir
 
-🧩 NOTAS FINALES
+# 11) METODOS: extractors.py 
+MétodoQué 
+- hacelocator(selector)Busca elementos en el DOM.
+- first, .nth(i)Selecciona elementos.
+- count()Cuántos elementos encontró.
+- inner_text()Texto visible.
+- get_attribute()Lee atributos HTML.
+- click()Hace click.
+- wait_for()Espera condiciones.
+- evaluate()Ejecuta JavaScript en el navegador
 
-El extractor está preparado para escalar y agregar nuevas columnas.
-Se recomienda monitorear cambios en el HTML de VTEX.
-Puede acoplarse a procesos de auditoría, BI, o conciliación contable.
+- # borra todos los __pycache__                                                                                                                                                                  
+- Get-ChildItem -Recurse -Directory -Filter __pycache__ | Remove-Item -Recurse -Force
