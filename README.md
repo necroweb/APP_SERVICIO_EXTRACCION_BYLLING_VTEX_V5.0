@@ -8,7 +8,7 @@
 - **Área:** Mercadeo
 - **Rol:** Practicante ADSO SENA
 - **Encargado:**
-- **CCopyright © 2026 Julian Andrés Valencia Amezquita
+- **CCopyright © 2026 
 contacto interno:** *(ajustar según políticas de la empresa en cuanto autoria , acceso y tratamiento de la informacion con la que se ejecuta la API)*
 - **Dirigido a:** Miguel Angel Gonzales - Especialista Vtex
 
