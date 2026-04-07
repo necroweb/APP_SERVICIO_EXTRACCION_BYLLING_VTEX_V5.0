@@ -1,23 +1,18 @@
-# Entorno virtual
+# Entornos virtuales
 .venv/
 venv/
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
-*.pyo
 
-# Archivos de entorno
-.env
-*.env
+# Ignorar todo vtex_invoices excepto exporter
+vtex_invoices/*
+!vtex_invoices/exporter.py
 
-# Datos temporales o binarios que no deben subirse
-*.xlsx
-*.csv
-*.log
+# Carpetas de salida / datos
+billing_downloads/
 
-# Playwright cache
-playwright/.cache/
-
-# Archivos temporales de Office
-~$*
+# Sistema
+Thumbs.db
+.DS_Store

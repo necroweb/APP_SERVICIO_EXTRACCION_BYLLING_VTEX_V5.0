@@ -10,7 +10,11 @@
 - **Encargado:**
 - **CCopyright © 2026 Julian Andrés Valencia Amezquita
 contacto interno:** *(ajustar según políticas de la empresa en cuanto autoria , acceso y tratamiento de la informacion con la que se ejecuta la API)*
+<<<<<<< HEAD
 - **Dirigido a:** Miguel Angel Gonzales - Especialista Vtex
+=======
+- **Dirigido a:** Miguel Angel Gonzales - Especialista      Vtex
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
 
 ---
 

@@ -65,7 +65,12 @@ def _split_amount(amount_text: Optional[str]) -> Tuple[Optional[str], Optional[s
         return None, None, None
     raw = amount_text.replace('\u00A0', ' ').strip().strip('=')
     mon, rest = _extract_currency(raw)
+<<<<<<< HEAD
     num_txt = re.sub(r"[^0-9,.-]", "", (rest or raw)).strip(',.-')
+=======
+    # Preservar el signo negativo al principio de la cadena
+    num_txt = re.sub(r"[^0-9,.-]", "", (rest or raw)).strip()
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
     val = _parse_number_str(num_txt) if num_txt else None
     if val is not None:
         return (mon or None), f"{(mon or '').upper()} {val:.2f}", val
@@ -125,9 +130,37 @@ CONCEPT_TITLES: Dict[int,str] = {
     14: 'Take Rate - CertifiedSeller',
     15: 'Take Rate - ExternalSeller',
     16: 'Take Rate - B2C',
+<<<<<<< HEAD
 }
 CONCEPT_DEFAULT_CURRENCY: Dict[int,str] = {i: 'COP' for i in CONCEPT_TITLES.keys()}
 
+=======
+    17: 'Descuento ref. condiciones firmadas en la renovacion',
+}
+CONCEPT_DEFAULT_CURRENCY: Dict[int,str] = {i: 'COP' for i in CONCEPT_TITLES.keys()}
+
+# --- NUEVO: Palabras clave para identificar columnas dinámicamente ---
+CONCEPT_COLUMN_KEYWORDS: Dict[int, List[str]] = {
+    0: ['tarifa', 'mensual', 'fija', 'mantenimiento', 'monitoreo'],
+    1: ['tarifa', 'mensual', 'fija', 'mantenimiento', 'ambiente', 'adicional'],
+    2: ['tarifa', 'mensual', 'fija', 'mantenimiento', 'política', 'comercial'],
+    3: ['tasa', 'mensual', 'fija', 'mantenimiento', 'seller', 'white', 'label'],
+    4: ['b2b', 'take', 'rate', 'instore', 'seller', 'monthly', 'adjustment'],
+    5: ['take', 'rate', 'onhandsfulfillment'],
+    6: ['take', 'rate', 'internalcertifiedseller'],
+    7: ['take', 'rate', 'salesapp', 'delivered', 'mainaccount'],
+    8: ['take', 'rate', 'instore'],
+    9: ['take', 'rate', 'internalcertifiedmarketplace', 'parentaccount'],
+    10: ['take', 'rate', 'sellerportal'],
+    11: ['take', 'rate', 'b2b'],
+    12: ['take', 'rate', 'callcenter'],
+    13: ['take', 'rate', 'certifiedmarketplace'],
+    14: ['take', 'rate', 'certifiedseller'],
+    15: ['take', 'rate', 'externalseller'],
+    16: ['take', 'rate', 'b2c'],
+    17: ['descuento', 'condiciones', 'firmadas', 'renovacion'],
+}
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
 # Base 1:1 + overrides ESTÁTICOS (fijos)
 EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {i: {i} for i in CONCEPT_TITLES.keys()}
 EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {
@@ -138,6 +171,7 @@ EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {
     3: {3},  # Tasa mensual fija de mantenimiento de cada Seller White Label
     4: {4},  # B2B Take Rate and InStore Seller - Monthly Adjustment
 
+<<<<<<< HEAD
     # Mapeos específicos donde el índice del concepto NO coincide con el de la columna
     7: {5},   # Take Rate - SalesAppDeliveredByMainAccount -> Mapeado a la columna 5
     9: {6},   # Take Rate - InternalCertifiedMarketplaceAndIsParentAccount -> Mapeado a la columna 6
@@ -150,6 +184,11 @@ EXACT_COLUMNS_BY_CONCEPT: Dict[int, set[int]] = {
     15: {10}, # Take Rate - ExternalSeller
     16: {10}, # Take Rate - B2C
 
+=======
+    # ELIMINAMOS los mapeos estáticos {5}, {6}, etc. ya que VTEX inserta columnas (como el Descuento)
+    # que desplazan los índices físicos. Ahora la lógica usará comparación de texto (Estrategia 0)
+    # para encontrarlos sin importar su posición en la tabla.
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
     # Conceptos que generalmente no tienen detalles o su valor es 0
     5: set(), # Take Rate - OnHandsFulfillment
     6: set(), # Take Rate - InternalCertifiedSellerAndIsChildAccount
@@ -232,11 +271,20 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
         bx = box.get('box_index')
         for col in box.get('columns') or []:
             ci = col.get('column_index')
+<<<<<<< HEAD
+=======
+            col_id = col.get('column_identifier')
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
             for row in col.get('rows') or []:
                 toks = row.get('tokens') or []
                 amt = _pick_amount_from_tokens(toks)
                 flat.append({'box_index':bx,'column_index':ci,'row_index':row.get('row_index'),
+<<<<<<< HEAD
                              'tokens':toks,'amount_token':(amt or '').replace('\u00A0',' ').strip()})
+=======
+                             'tokens':toks,'amount_token':(amt or '').replace('\u00A0',' ').strip(),
+                             'column_identifier': col_id})
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
     by_amount = defaultdict(list)
     for e in flat:
         by_amount[e['amount_token']].append(e)
@@ -244,6 +292,12 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
     def _t0(e):
         toks = e.get('tokens') or []
         return ((toks[0] or '').replace('\u00A0',' ').strip().lower() if toks else '')
+<<<<<<< HEAD
+=======
+    
+    def _col_id(e):
+        return (e.get('column_identifier') or '').lower()
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
 
     mv = rec.get('mv2_ma1_details') or {}
     for grp in _iter_detail_groups(mv):
@@ -255,6 +309,19 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
         amt_txt = (items[0].get('amount_text') or '').replace('\u00A0',' ').strip()
         mon_r, _, val_r = _split_amount(amt_txt)
 
+<<<<<<< HEAD
+=======
+        # Identificar el ID de negocio real basado en el texto del botón
+        # Esto evita que un concepto nuevo (como Descuento) desplace los nombres de los otros.
+        desc_raw = (items[0].get('description') or '')
+        desc_low = desc_raw.lower()
+        for biz_idx, biz_title in CONCEPT_TITLES.items():
+            if biz_title.lower() in desc_low:
+                idx = biz_idx
+                grp['index'] = idx
+                break
+
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
         if idx in SUMMARY_ONLY_INDEXES and (val_r is not None and abs(val_r) < 1e-12):
             grp['associations'] = []
             grp['column_index_targets'] = []
@@ -262,6 +329,7 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
             grp['_summary_only'] = True
             continue
 
+<<<<<<< HEAD
         targets = set(EXACT_COLUMNS_BY_CONCEPT.get(idx) or [])
         grp['column_index_targets'] = sorted(targets)
 
@@ -272,6 +340,34 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
         if idx == 7 and targets == {5}:  # SalesApp -> excluir b2b por seguridad
             col_matches = [e for e in col_matches if 'b2b' not in _t0(e)]
         if idx == 9 and targets == {6}:  # InternalCertified -> preferir WL/WLPV/COWL si existen
+=======
+        # --- Lógica de asociación ---
+        col_matches = []
+
+        # Estrategia 0: Match Exacto por Texto (La más robusta contra desplazamientos)
+        # Si el nombre del botón coincide con el encabezado de la columna en el HTML.
+        col_matches = [e for e in flat if _col_id(e) == desc_low]
+
+        # Estrategia 1: Mapeo Fijo por column_index (Fallback)
+        fixed_targets = set(EXACT_COLUMNS_BY_CONCEPT.get(idx) or [])
+        grp['column_index_targets'] = sorted(fixed_targets)
+        if not col_matches and fixed_targets:
+            col_matches = [e for e in flat if e['column_index'] in fixed_targets]
+
+        # Estrategia 2: Mapeo Dinámico por Palabras Clave (si la 1 falla)
+        if not col_matches and idx in CONCEPT_COLUMN_KEYWORDS:
+            keywords = CONCEPT_COLUMN_KEYWORDS[idx]
+            candidates = [e for e in flat if all(k in _col_id(e) for k in keywords)]
+            if candidates:
+                col_matches = candidates
+
+        col_matches = _restrict_entries_by_box(col_matches, strategy=BOX_DEDUP_STRATEGY, whitelist=BOX_WHITELIST)
+
+        # --- Filtros estáticos para evitar cruces ---
+        if idx == 7 and fixed_targets == {5}:  # SalesApp -> excluir b2b por seguridad
+            col_matches = [e for e in col_matches if 'b2b' not in _t0(e)]
+        if idx == 9 and fixed_targets == {6}:  # InternalCertified -> preferir WL/WLPV/COWL si existen
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
             wl = [e for e in col_matches if any(k in _t0(e) for k in ('wlpv','cowl','wl'))]
             if wl:
                 col_matches = wl
@@ -280,7 +376,11 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
         if not col_matches:
             amt_raw = list(by_amount.get(amt_txt, []))
             amt_matches = _restrict_entries_by_box(
+<<<<<<< HEAD
                 [e for e in amt_raw if (not targets) or (e['column_index'] in targets)],
+=======
+                [e for e in amt_raw if (not fixed_targets) or (e['column_index'] in fixed_targets)],
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
                 strategy=BOX_DEDUP_STRATEGY, whitelist=BOX_WHITELIST
             )
 
@@ -308,8 +408,12 @@ def attach_associations_inplace(rec: Dict[str, Any]) -> None:
 
 # ===================== Aplanado / CSV =====================
 HEADERS_ORDER = ['Año','Mes','Concepto','Pais / PV','Concepto II','Descripción','Moneda','Valor',
+<<<<<<< HEAD
                  'Index Concepto','Columnas objetivo','Ámbito(s)','Scope','Box','Column','Row','Source',
                  'Descripción resumen','Amount_text resumen']
+=======
+                 'Index Concepto','Columnas objetivo','Ámbito(s)','Scope','Box','Column','Row','Source']
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
 
 def _format_number_es(x):
     if x == '' or x is None:
@@ -362,7 +466,11 @@ def _format_link_to_row(link: Dict[str, Any], concept: str, concept_index: Any, 
     else:
         # Caso normal: se mantiene la lógica original que ya funcionaba para los demás.
         concepto2 = tokens[1] if len(tokens) >= 2 else '-'
+<<<<<<< HEAD
         mids = tokens[3:] if len(tokens) >= 4 else tokens[2:]
+=======
+        mids = tokens[2:]
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
 
     if mids and (mids[-1].replace('\u00A0',' ').strip().lower() == (amt_txt or '').replace('\u00A0',' ').strip().lower()):
         mids = mids[:-1]
@@ -440,16 +548,22 @@ def flatten_to_formatted_rows(
                         'Columnas objetivo': ','.join(str(c) for c in targets),
                         'Ámbito(s)': ','.join([a for a in ambitos if a])
                     })
+<<<<<<< HEAD
                 base.setdefault('Descripción resumen', concept)
                 base.setdefault('Amount_text resumen', amt_txt_concept)
+=======
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
                 rows.append(base)
 
             if not grp.get('_summary_only'):
                 for link in grp.get('associations', []) or []:
+<<<<<<< HEAD
                     if dedup_fixedusd_main and link.get('scope') == 'FixedUSD' and val_conc is not None:
                         mon_l, _, val_l = _split_amount(link.get('amount') or '')
                         if val_l is not None and abs(val_l - val_conc) < 0.005:
                             continue
+=======
+>>>>>>> 22cce17 (Initial commit: exporter.py, execute.bat and README)
                     rows.append(_format_link_to_row(link, concept, concept_index, anio, mes, amt_txt_concept, include_tech_cols, strict_description))
 
     if FINAL_ROWSET_DEDUP and rows:
